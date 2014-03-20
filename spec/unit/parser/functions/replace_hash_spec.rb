@@ -3,8 +3,14 @@ require 'spec_helper'
 
 describe "the replace_hash function" do
   let(:scope) { PuppetlabsSpec::PuppetInternals.scope }
+  let(:expectations) {
+    { 'a' => { 'aa' => '1', 'aaa' => '2' },
+      'b' => ['x','x'],
+      'c' => '5'
+    }
+  }
 
-  $hash = {
+  hash = {
       'a' => {
           'aa' => '1',
           'aaa' => '2'
@@ -22,17 +28,7 @@ describe "the replace_hash function" do
   end
 
   it "should return hash with the new data" do
-
-    expected = {
-        'a' => {
-            'aa' => '1',
-            'aaa' => '2'
-        },
-        'b' => ['x','x'],
-        'c' => '5'
-    }
-
-    result = scope.function_replace_hash([$hash,{'b' => ['x','x']}])
-    result.should == expected
+    result = scope.function_replace_hash([hash,{'b' => ['x','x']}])
+    result.should == expectations
   end
 end

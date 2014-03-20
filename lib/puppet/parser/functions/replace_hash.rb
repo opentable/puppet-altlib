@@ -51,9 +51,8 @@ This function searches through a hash, replaces the first occurrence with the gi
           if(mk.eql?(ok))
             hash1[mk] = mv
           else
-            if(mv.is_a?(Hash))
-              # does it ever get here ???
-              result = replace_hash.call(mv, hash2)
+            if(ov.is_a?(Hash))
+              result = replace_hash.call(ov, hash2)
             end
           end
         end
