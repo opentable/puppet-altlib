@@ -11,12 +11,9 @@ describe "the replace_hash function" do
   }
 
   hash = {
-      'a' => {
-          'aa' => '1',
-          'aaa' => '2'
-      },
-      'b' => ['3','4'],
-      'c' => '5'
+    'a' => { 'aa' => '1', 'aaa' => '2' },
+    'b' => ['3','4'],
+    'c' => '5'
   }
 
   it "should exist" do

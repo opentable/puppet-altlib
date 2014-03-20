@@ -10,7 +10,7 @@ This function searches through a hash, replaces the first occurrence with the gi
 *Examples:*
 
   $original_hash = {
-    'lbennett' => {
+    'test' => {
       'ensure' => 'present',
       'groups' => ['sudo']
     }
@@ -19,7 +19,7 @@ This function searches through a hash, replaces the first occurrence with the gi
   $modifier = { 'groups' => ['wheel'] }
 
   $new_hash = {
-    'lbennett' => {
+    'test' => {
       'ensure' => 'present',
       'groups' => ['wheel']
     }

@@ -1,0 +1,8 @@
+name          'opentable-altlib'
+version       '0.1.0'
+source        'git://github.com/opentable/puppet-altlib.git'
+author        'opentable'
+summary       'Module providing some additional useful functions'
+description   'Additional functions used in OpenTable modules'
+project_page 'https://github.com/opentable/puppet-altlib'
+license       'MIT'
