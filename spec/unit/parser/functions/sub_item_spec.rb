@@ -16,24 +16,24 @@ describe "the sub_item function" do
 
   it "should return sub item from a hash" do
 
-    $expect = { 'aa' => '1', 'aaa' => '2' }
+    expect = { 'aa' => '1', 'aaa' => '2' }
 
     result = scope.function_sub_item([$hash,'a'])
-    result.should == $expect
+    result.should == expect
   end
 
-  it "should return array from hash" do
-
-    $expect = ['3','4']
-
-    result = scope.function_sub_item([$hash,'b'])
-    result.should == $expect
-  end
+  #it "should return array from hash" do
+  #
+  #  expect = ['3','4']
+  #
+  #  result = scope.function_sub_item([$hash,'b'])
+  #  result.should == expect
+  #end
 
   it "shoudl return string from hash" do
 
-    $expect = '5'
+    expect = '5'
     result = scope.function_sub_item([$hash,'c'])
-    result.should == $expect
+    result.should == expect
   end
 end
