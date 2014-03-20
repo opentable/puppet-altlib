@@ -1,4 +1,8 @@
 # Puppet Alternative Library #
+
+[![Build
+Status](https://secure.travis-ci.org/opentable/puppet-altlib.png)](https://secure.travis-ci.org/opentable/puppet-altlib.png)
+
 This module provides an additional set of resources that are not found in the Puppet Standard Library. This module will include the following additions to Puppet:
 
 * Functions
