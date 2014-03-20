@@ -3,7 +3,7 @@
         { "operatingsystem": "RedHat" },
         { "operatingsystem": "CentOS" },
         { "operatingsystem": "Debian" },
-        { "operatingsystem": "Ubuntu" }
+        { "operatingsystem": "Ubuntu" },
         { "operatingsystem": "Windows" }
     ],
     "requirements": [
