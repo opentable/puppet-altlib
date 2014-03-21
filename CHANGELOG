@@ -1,2 +1,5 @@
+2014-03-21 Release 0.2.0
+- added facts to pull out puppet agent configuration
+
 2014-03-20 Release 0.1.0
 - initial release

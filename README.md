@@ -52,3 +52,17 @@ Example:
 Would return: { 'test' => { 'ensure' => 'present', 'groups' => ['wheel'] } }
 
 - *Type*: rvalue
+
+# Facts #
+
+agent_ssldir
+---
+Returns the directory where SSL certificates are kept
+
+agent_config
+---
+Returns the configuration file for the current puppet application.
+
+agent_rundir
+---
+Returns the directory where Puppet PID files are kept

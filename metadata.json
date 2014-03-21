@@ -17,7 +17,7 @@
         }
     ],
     "name":         "opentable-altlib",
-    "version":      "0.1.0",
+    "version":      "0.2.0",
     "source":       "git://github.com/opentable/puppet-altlib.git",
     "author":       "opentable",
     "summary":      "Module providing some additional useful functions",
